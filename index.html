@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabliczka mnożenia</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.min.css">
+        <script src="https://kit.fontawesome.com/44a5136141.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="container-fluid">
+        <div class="top row text-center">
+            <h1>Tabliczka mnożenia</h1>
+        </div>
+        <div class="content d-flex flex-column align-items-center">
+            <h2>Ile to jest...</h2>
+            <div class="equation d-flex align-items-center justify-content-center">
+                <div class="begin">9x3=</div>
+                <input type="number" class="result">
+            </div>
+            <button class="check">Sprawdź</button>
+            <div class="rating d-flex justify-content-center align-items-center">
+                <div class="correct">7</div>
+                <div class="avgtime">27s</div>
+                <div class="incorrect">3</div>
+            </div>
+        </div>
+        <div class="badlist"></div>
+        <div class="popup">
+            <div class="box">
+                <div class="title">Dobrze!</div>
+                <div class="description">Oby tak dalej!</div>
+                <button class="next">Następne</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
